@@ -9,9 +9,9 @@ const app = express();
 // prettier-ignore
 app.use('/graphql', expressGraphQL({
   // Gives the GraphQL a schema to work with
-  schema,
+  schema
   // enables GraphiQL tool
-  graphiql: true
+  // graphiql: true
 }));
 
 // Start server
