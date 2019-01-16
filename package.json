@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/BrandonVilaychith/graphql-practice/issues"
   },
-  "homepage": "https://github.com/BrandonVilaychith/graphql-practice#readme"
+  "homepage": "https://github.com/BrandonVilaychith/graphql-practice#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.0"
+  }
 }
